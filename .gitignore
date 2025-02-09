@@ -1,0 +1,6 @@
+0_out/
+__pycache__
+.DS_Store
+.streamlit
+.bash_history
+
