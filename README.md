@@ -44,6 +44,12 @@ After cloning this repository to your computer, please complete the following in
 poetry install
 ```
 
+If you have an error about the `lock` file, try the following command to reset `poetry.lock` for the project.
+
+``` bash
+poetry lock
+```
+
 Below are commands to run BeagleTM2 using a Docker container which houses all necessary libraries and software for BeagleTM.
 
 ### Help to run the project
