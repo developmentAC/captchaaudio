@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         # Performs all actions on different versions of Python
-        python-version: ["3.13"]
+        python-version: ["3.10"]
     # Define the workflow steps
     steps:
     # Checkout the code of the repository
@@ -60,8 +60,8 @@ jobs:
             echo __________ pwd __________
             pwd
 
-            echo __________ ls -l __________
-            ls -l
+            echo __________ poetry lock __________
+            poetry lock
 
             echo __________ ls -l __________
             ls -l
